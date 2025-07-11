@@ -1,16 +1,10 @@
 import React from 'react'
   import 
-  {FaShoppingBag,
+  {
   FaStore,
-  FaParking,
   FaUtensils,
   FaFilm,
   FaChild,
-  FaWifi,
-  FaMapMarkerAlt,
-  FaPhone,
-  FaEnvelope,
-  FaClock,
 } from "react-icons/fa";
 import PageTitle from '../../../partials/PageTitle';
 import StoreCards from '../../../partials/StoreCards';

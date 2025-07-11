@@ -9,12 +9,14 @@ import Footer from '../../partials/Footer';
 const Home = () => {
   return (
     <>
+      <div className="font-sans bg-gray-50">
         <Navigation/>
         <Hero/>
         <Stores/>
         <Services/>
         <Contact/>
-        <Footer/>   
+        <Footer/>  
+      </div>  
     </>
   );
 };

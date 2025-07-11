@@ -1,12 +1,6 @@
 import React from 'react'
   import 
-  {FaShoppingBag,
-  FaStore,
-  FaParking,
-  FaUtensils,
-  FaFilm,
-  FaChild,
-  FaWifi,
+  {
   FaMapMarkerAlt,
   FaPhone,
   FaEnvelope,
