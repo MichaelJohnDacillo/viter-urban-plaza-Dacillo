@@ -5,9 +5,9 @@ const StoreCards = ({image, alt, icon: Icon, name, offer, type }) => {
     <>
         <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
                         <img
-                           image src={image}
-                          className="w-full h-48 object-cover" 
-                          alt={alt}
+                            src={image}
+                            className="w-full h-48 object-cover" 
+                            alt={alt}
                         />
                         <div className="p-6">
                           <div className="flex items-center mb-2">
