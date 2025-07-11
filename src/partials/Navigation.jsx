@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaShoppingBag,
-  FaTimes,
-} from "react-icons/fa";
+import { FaShoppingBag, FaTimes } from "react-icons/fa";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -36,7 +33,7 @@ const Navigation = () => {
             <button className="md:hidden text-xl">☰</button>
           </div>
         </nav> */}
-      <nav className="bg-blue-800 text-white p-4 sticy top-0 z-50 shadow-md">
+      <nav className="bg-blue-800 text-white p-4 sticky top-0 z-50 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <FaShoppingBag className="text-2xl font-bold" />
@@ -74,36 +71,36 @@ const Navigation = () => {
         }`}
       >
         <div className="flex flex-col items-center space-y-8 text-white text-2xl">
-        <a
-          href="#home"
-          className="hover:text-blue-200 transition"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Home
-        </a>
-        <a
-          href="#stores"
-          className="hover:text-blue-200 transition"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Stores
-        </a>
-        <a
-          href="#services"
-          className="hover:text-blue-200 transition"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Services
-        </a>
-        <a
-          href="#contact"
-          className="hover:text-blue-200 transition"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Contacts
-        </a>
+          <a
+            href="#home"
+            className="hover:text-blue-200 transition"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Home
+          </a>
+          <a
+            href="#stores"
+            className="hover:text-blue-200 transition"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Stores
+          </a>
+          <a
+            href="#services"
+            className="hover:text-blue-200 transition"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Services
+          </a>
+          <a
+            href="#contact"
+            className="hover:text-blue-200 transition"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Contacts
+          </a>
+        </div>
       </div>
-    </div>
     </>
   );
 };
